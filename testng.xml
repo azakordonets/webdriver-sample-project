@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Podio web tests" verbose="1" parallel="false" thread-count="4">
+
+    <!--  <listeners>
+       <listener class-name="path_to_listener1">
+       </listener>
+       <listener class-name="path_to_listener2">
+       </listener>
+   </listeners> -->
+
+   
+    <test name="SignIn test">
+        <classes>
+            <class name="com.podio.qa.webdriver.LoginTest"/>
+        </classes>
+    </test>
+
+   
+</suite>
